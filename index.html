@@ -1,39 +1,53 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>King Store</title>
-    <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>King Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    .product {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin: 20px auto;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .product h2 {
+      margin: 10px 0 5px;
+    }
+    .product p {
+      font-size: 18px;
+      color: #333;
+    }
+    .product a button {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>King Store</h1>
-        <p>Sois stylé avec nos accessoires tendances !</p>
-        <nav>
-            <a href="#produits">Produits</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <section id="produits">
-            <h2>Nos Produits</h2>
-            <ul>
-                <li>Montres connectées</li>
-                <li>Chaussures tendance</li>
-                <li>Ceintures stylées</li>
-                <li>Vêtements urbains</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email : contact@kingstore.com</p>
-            <p>Instagram / TikTok : @kingstore</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 King Store. Tous droits réservés.</p>
-    </footer>
+  <h1>Bienvenue sur King Store</h1>
+  <div class="product">
+    <img src="https://i.postimg.cc/52r2P3fh/tshirt.jpg" alt="T-shirt King">
+    <h2>T-shirt King</h2>
+    <p>Prix : 5.000 FCFA</p>
+    <a href="https://wa.me/2250758526190?text=Je%20veux%20commander%20le%20T-shirt%20King%20Store%20à%205000%20FCFA" target="_blank">
+      <button>Commander sur WhatsApp</button>
+    </a>
+  </div>
 </body>
 </html>
